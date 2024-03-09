@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="logo">Aayu.</div>
+      <ul>
+        <li><a href="#navbar">Home </a></li>
+        <li><a href="#about">About </a></li>
+        <li><a href="#portfolio">Services </a></li>
+        <li><a href="#services">Portfolio </a></li>
+        <li><a href="#contact">Contacts</a></li>
+      </ul>
+    </div>
+    <div class="header-text">
+      <p>Web Developer</p>
+      <h1>
+        Hi, I'm <span>Aayusha</span><br />
+        From Nepal
+      </h1>
+
+      <div id="img">
+        <img src="images/IMG_1141-removebg-preview.png" />
+      </div>
+    </div>
+    <!------------------about--------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/IMG-09b18dbbbf7644ee01a8cf9cce5eaed8-V.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+             Hi ! I am Aayusha Mulmi from Nepal a very passionated web developer. I am currently studying my bachelors degree in Computer Science and
+             Information Technology (CSIT ) in Tribhuvan University , one of the reputed Campus internationally. 
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>JavaScript</span></li>
+                <li><span>C++</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li><span>1 year Experience in web development</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>+2 in Science</span></li>
+                <li>
+                  <span
+                    >Bachelors in Computer Science and Information
+                    Technology</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------services-------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <h2>Web development</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
+              aperiam esse temporibus minus, vitae, autem natus odio neque magni
+              distinctio laudantium dolorem blanditiis! Esse dolorem amet totam
+              laudantium numquam aut?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>Logo Design</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
+              aperiam esse temporibus minus, vitae, autem natus odio neque magni
+              distinctio laudantium dolorem blanditiis! Esse dolorem amet totam
+              laudantium numquam aut?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
+              aperiam esse temporibus minus, vitae, autem natus odio neque magni
+              distinctio laudantium dolorem blanditiis! Esse dolorem amet totam
+              laudantium numquam aut?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------portfolio----------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Screenshot (9).png" width="40%" />
+            <div class="layer">
+              <h3>Web application</h3>
+              <p>
+                Web application connects you <br />to the talented people around
+                the world.
+              </p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Screenshot (10).png" width="40%" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------contact------------>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="bx bx-mail-send"></i>aayumulmi7@gmail.com</p>
+            <p><i class="bx bxs-phone"></i>9824134132</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+              <a href="https://www.instagram.com/aayu_mulmi/"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a href="https://www.twitter.com/"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/feed/"
+                ><i class="bx bxl-linkedin-square"></i
+              ></a>
+            </div>
+            <a href="images/Curriculum vitae.pdf" download class="btn btn2"
+              >Downlaod CV
+            </a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email "
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class='bx bx-copyright' ></i> Aayusha. Made with <i class='bx bxs-heart' ></i>Easy Tutorials</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
